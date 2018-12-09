@@ -343,6 +343,13 @@ html {
 	border: solid 1px black;
 	width: 1019px;
 	background-color: blue;
+	display: flex;
+}
+
+.whiskeybox {
+	height: 100px;
+	width: 100px;
+	background-color: green;
 }
 
 }
