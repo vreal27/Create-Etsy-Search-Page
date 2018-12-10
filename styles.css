@@ -339,7 +339,7 @@ html {
 }
 
 
-.whiskey{
+#whiskey{
 	border: solid 1px black;
 	width: 1019px;
 	background-color: blue;
@@ -347,12 +347,37 @@ html {
 }
 
 .whiskeybox {
-	height: 100px;
-	width: 100px;
+	height: 333px;
+    width: 263px;
 	background-color: green;
-}
+	display: flex;
+	flex-direction: column;
+	white-space: nowrap;
+	
 
 }
+
+.whiskeybox a {
+	font-size: 12px;
+	line-height: 25px;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.wimage{
+	height: 250px;
+	width: auto;
+}
+.heart {
+	float: left;
+	height: 10px;
+	width: 10px;
+	float: right;
+}
+
+
+}
+
 
 
 
