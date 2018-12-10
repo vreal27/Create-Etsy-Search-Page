@@ -4,18 +4,19 @@
  items.results.forEach(function(item){
  	console.log(item)
 
-// 	whiskeyTemplate += `
+	whiskeyTemplate += `
 	
-// 		<div class="whiskeybox">
-// 					<img src="${unescape(item.Images[0].url_fullxfull)}" class="wimage">
-// 					<img src="assets/heart.png" class="heart">
-// 					<a href="${item.url}" class="title">${item.title}</a>
-// 					<a href="${item.url}" class="shopname">${item.shop.shop_name}</a>
-// 					<a href="${item.url}" class="price">${item.price}</a>
+		<div class="whiskeybox">
+					<a href="${item.url}">
+						<img src="${unescape(item.Images[0].url_fullxfull)}" class="wimage">
+					</a>
+					<img src="assets/heart.png" class="heart">
+					<a href="${item.url}" class="title">${item.title}</a>
+					<a href="${item.url}" class="shopname">${item.Shop.shop_name}</a>
+					<a href="${item.url}" class="price">$${item.price}</a>
+		</div>
 
-// 		</div>
-
-// `
+`
 
 
 })
